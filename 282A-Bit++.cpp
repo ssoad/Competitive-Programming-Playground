@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
+/*
+    Author- Sohanuzzaman Soad
+    University of Asia Pacific (UAP),BD
 
+*/
 int main()
 {
     int n,r=0;
