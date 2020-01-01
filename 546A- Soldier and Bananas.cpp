@@ -5,17 +5,18 @@ using namespace std;
 
 soads_game
 {
-   int i, n, t, k, w;
-	long long sum=0;
+   int i,j,k;
+   long long sum=0;
+   cin>>i>>j>>k;
+   for(int x=1;x<=k;x++)
+   {
+       sum+=i*x;
 
-	cin>> k>>n>>w;
-	for(i=1; i<=w; i++){
-		sum = sum+(i*k);
-	}
-	if(sum<= n){
-		cout <<0<<"\n";
-	}
-	else cout << sum - n << "\n";
+   }
+   if(sum>=j)
+   cout<<sum-j;
+   else
+    cout<<"0";
     return 0;
 }
 
