@@ -10,7 +10,7 @@ soads_game
     cin>>a;
     for(int i=0;i<a.length();i++)
     {
-        if((a.at(i)=='H')||(a.at(i)=='Q')||(a.at(i)=='9')||(a.at(i)=='+'))
+        if((a.at(i)=='H')||(a.at(i)=='Q')||(a.at(i)=='9'))
             f=true;
     }
     if(f)
