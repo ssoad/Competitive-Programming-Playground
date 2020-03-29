@@ -1,4 +1,5 @@
 *.exe
 *.O
 test***.*
+*.c
 Untitled2.cpp
