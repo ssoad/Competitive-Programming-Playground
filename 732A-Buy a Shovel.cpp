@@ -17,7 +17,7 @@ start
     for(i=1;i<10;i++)
     {
         c=a*i%10;
-        cout<<"Value(i):"<<i<<" "<<"Value Change: "<<c<<endl;
+       // cout<<"Value(i):"<<i<<" "<<"Value Change: "<<c<<endl;
         if(c==0||c==b)
         {
             break;
