@@ -1,4 +1,3 @@
-
 #include"iostream"
 #include"bits/stdc++.h"
 using namespace std;
@@ -16,13 +15,12 @@ start
     int n,t;
     cin>>n;
     t=n;
-    int arr[n];
+    long long arr[n],r=0;
     while(t--)
     {
         cin>>arr[t];
     }
     sort(arr,arr+n);
-    int r=0;
     for(int i=0;i<n;i++)
     {
         r+=arr[n-1]-arr[i];
