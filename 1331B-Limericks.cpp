@@ -12,10 +12,11 @@ soads_game
 {
     int n,m=1;
     cin>>n;
-    int i=n%2?3:2;
-    for(i;i<=n;i+=2)
+    int i=0;
+    //i=n%2?3:2;
+    for(i;i<=n;i++)
     {
-        cout<<"Loop:"<<m++<<endl;
+       // cout<<"Loop:"<<m++<<endl;
         if(n%i==0)
         {
             cout<<i<<n/i<<endl;
