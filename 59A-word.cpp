@@ -1,8 +1,7 @@
-#include<iostream>
-#include <algorithm>
-using namespace std;
+#include <iostream>
 #define soads_game int main()
-
+#define stop return 0;
+using namespace std;
 
 soads_game
 {
@@ -22,7 +21,7 @@ soads_game
     else
         transform(a.begin(), a.end(), a.begin(), ::tolower);
     cout <<a<< endl;
-    return 0;
+    stop
 
 }
 
