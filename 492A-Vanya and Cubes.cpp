@@ -9,33 +9,22 @@ Author-SohanuzzamanSoad
 UniversityofAsiaPacific(UAP),BD
 
 */
-
-int find_cube(int n)
+long long Find_Cube(long long n)
 {
-    int p=1,r=0,c=0;
-    for(int i=0;n>0;i+=p)
+    long a = 0;
+    while(a * (a + 1) * (a + 2) <= 6 * n)
     {
-        n=n-i;
-        if(i!=0)
-            c++;
-         p++;
+        ++a;
     }
-    return c;
+    --a;
+    return a;
 }
 
 start
 {
- int n;
- cin>>n;
- if(n==3||n==19)
- {
-     n=n-1;
- }
- cout<<find_cube(n)<<endl;
-stop;
+    long long n;
+    cin>>n;
+    cout<<Find_Cube(n)<<endl;
+    stop;
 
 }
-
-
-
-
