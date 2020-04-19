@@ -21,7 +21,7 @@ soads_game
         if(n == 1)
         {
             cout<<"-1";
-            puts("-1");
+
         }
         else
         {
