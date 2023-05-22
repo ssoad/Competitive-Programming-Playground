@@ -28,7 +28,7 @@
 			"int main()",
 			"{",
 			"    fastio;",
-			"    ${1:// code goes here}",
+			"    ${2:// code goes here}",
 			"    return 0;",
 			"}"
 		],
