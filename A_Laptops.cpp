@@ -12,15 +12,7 @@ Author: Md. Sohanuzzaman Soad
 #define endl "\n"
 
 using namespace std;
-
-int main()
-#include <iostream>
-#include <bits/stdc++.h>
  
-using namespace std;
- 
-??????????
-
 int main()
 {
     int n;
