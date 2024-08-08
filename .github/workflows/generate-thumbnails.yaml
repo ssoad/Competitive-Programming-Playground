@@ -33,6 +33,7 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git pull
         git add Thumbnails/
         git add book_list.md
         git commit -m "Update PDF thumbnails and book list via GitHub Actions" || echo "No changes to commit"
