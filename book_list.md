@@ -1,5 +1,5 @@
 # List of Books
-Generated on Thu Aug  8 11:43:37 UTC 2024
+Generated on Thu Aug  8 11:49:07 UTC 2024
 
 ## Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions
 ![Thumbnail](Thumbnails/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions-thumbnail.jpg)
@@ -19,9 +19,9 @@ Generated on Thu Aug  8 11:43:37 UTC 2024
 ## Standard_Algorithms_and_Data_Structures
 ![Thumbnail](Thumbnails/Standard_Algorithms_and_Data_Structures-thumbnail.jpg)
 
-## book
-![Thumbnail](Thumbnails/book-thumbnail.jpg)
+## competitive-programmers-handbook
+![Thumbnail](Thumbnails/competitive-programmers-handbook-thumbnail.jpg)
 
-## icpc
-![Thumbnail](Thumbnails/icpc-thumbnail.jpg)
+## icpc_guide
+![Thumbnail](Thumbnails/icpc_guide-thumbnail.jpg)
 
