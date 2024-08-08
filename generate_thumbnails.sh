@@ -25,14 +25,14 @@ for pdf_file in "$BOOKS_DIR"/*.pdf; do
     pdftoppm -f 1 -singlefile -jpeg "$pdf_file" "$THUMBNAILS_DIR/$base_name"
 
     # Convert the output JPEG to a smaller thumbnail
-    convert "$THUMBNAILS_DIR/$base_name.jpg" -resize 2000x "$THUMBNAILS_DIR/$base_name-thumbnail.jpg"
+    convert "$THUMBNAILS_DIR/$base_name.jpg" -resize 200x "$THUMBNAILS_DIR/$base_name-thumbnail.jpg"
 
     # Remove the intermediate full-size image
-    rm "$THUMBNAILS_DIR/$base_name.jpg"
+    # rm "$THUMBNAILS_DIR/$base_name.jpg"
 
     # Add an entry to the markdown file
     echo "## $base_name" >> $LIST_FILE
-    echo "![Thumbnail](Thumbnails/$base_name-thumbnail.jpg)" >> $LIST_FILE
+    echo "![Thumbnail](Thumbnails/$base_name.jpg)" >> $LIST_FILE
     echo "" >> $LIST_FILE
 done
 
