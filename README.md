@@ -21,4 +21,4 @@ chmod +x ./config.sh
 This repository is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Author
-[![Sohanuzzaman Soad](https://avatars.githubusercontent.com/u/44132311?v=4)]
+![Sohanuzzaman Soad](https://avatars.githubusercontent.com/u/44132311?v=4)
