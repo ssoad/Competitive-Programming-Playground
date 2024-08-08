@@ -17,3 +17,8 @@ This is only for set git user and email. Run the following commands to configure
 chmod +x ./config.sh
 ./config.sh
 ```
+## License
+This repository is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+## Author
+[![Sohanuzzaman Soad](https://avatars.githubusercontent.com/u/44132311?v=4)]
