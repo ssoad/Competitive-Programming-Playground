@@ -3,7 +3,7 @@ name: Generate PDF Thumbnails
 on:
   push:
     branches:
-      - main  # Adjust this if you want to trigger the action on a different branch
+      - master  # Adjust this if you want to trigger the action on a different branch
 
 jobs:
   generate-thumbnails:
