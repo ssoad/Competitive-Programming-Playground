@@ -1,5 +1,5 @@
 # List of Books
-Generated on Thu Aug  8 11:49:07 UTC 2024
+Generated on Thu Aug  8 12:15:36 UTC 2024
 
 ## Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions
 ![Thumbnail](Thumbnails/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions-thumbnail.jpg)
