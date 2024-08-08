@@ -1,11 +1,11 @@
 # List of Books
-Generated on Thu Aug  8 11:26:50 UTC 2024
+Generated on Thu Aug  8 11:43:37 UTC 2024
 
 ## Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions
 ![Thumbnail](Thumbnails/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions-thumbnail.jpg)
 
-## Data Structures and Algorithms Made Easy_ Data Structures and Algorithmic Puzzles
-![Thumbnail](Thumbnails/Data Structures and Algorithms Made Easy_ Data Structures and Algorithmic Puzzles-thumbnail.jpg)
+## Data_Structures_and_Algorithms_Made_Easy__Data_Structures_and_Algorithmic_Puzzles
+![Thumbnail](Thumbnails/Data_Structures_and_Algorithms_Made_Easy__Data_Structures_and_Algorithmic_Puzzles-thumbnail.jpg)
 
 ## Dynamic-Programming-for-Interviews
 ![Thumbnail](Thumbnails/Dynamic-Programming-for-Interviews-thumbnail.jpg)
@@ -16,8 +16,8 @@ Generated on Thu Aug  8 11:26:50 UTC 2024
 ## Introduction-to-algorithms-third-edition
 ![Thumbnail](Thumbnails/Introduction-to-algorithms-third-edition-thumbnail.jpg)
 
-## Standard Algorithms and Data Structures
-![Thumbnail](Thumbnails/Standard Algorithms and Data Structures-thumbnail.jpg)
+## Standard_Algorithms_and_Data_Structures
+![Thumbnail](Thumbnails/Standard_Algorithms_and_Data_Structures-thumbnail.jpg)
 
 ## book
 ![Thumbnail](Thumbnails/book-thumbnail.jpg)
