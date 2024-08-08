@@ -1,0 +1,39 @@
+name: Generate PDF Thumbnails
+
+on:
+  push:
+    branches:
+      - main  # Adjust this if you want to trigger the action on a different branch
+
+jobs:
+  generate-thumbnails:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python environment
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y imagemagick poppler-utils
+
+    - name: Make script executable
+      run: chmod +x generate_thumbnails.sh
+
+    - name: Run thumbnail generation script
+      run: ./generate_thumbnails.sh
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add Thumbnails/
+        git add book_list.md
+        git commit -m "Update PDF thumbnails and book list via GitHub Actions" || echo "No changes to commit"
+        git push
