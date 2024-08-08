@@ -9,7 +9,7 @@ This repository contains solutions to various problems I've solved on different 
 
 
 
-Last Updated: 08-08-2024 12:19:30
+Last Updated: 08-08-2024 12:24:53
 
 ## Configuration
 This is only for set git user and email. Run the following commands to configure git user and email.
