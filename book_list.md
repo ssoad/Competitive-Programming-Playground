@@ -1,27 +1,27 @@
 # List of Books
-Generated on Thu Aug  8 12:15:36 UTC 2024
+Generated on Thu Aug  8 18:21:49 +06 2024
 
 ## Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions
-![Thumbnail](Thumbnails/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions-thumbnail.jpg)
+<img src="Thumbnails/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions-thumbnail.jpg" width="200px">
 
 ## Data_Structures_and_Algorithms_Made_Easy__Data_Structures_and_Algorithmic_Puzzles
-![Thumbnail](Thumbnails/Data_Structures_and_Algorithms_Made_Easy__Data_Structures_and_Algorithmic_Puzzles-thumbnail.jpg)
+<img src="Thumbnails/Data_Structures_and_Algorithms_Made_Easy__Data_Structures_and_Algorithmic_Puzzles-thumbnail.jpg" width="200px">
 
 ## Dynamic-Programming-for-Interviews
-![Thumbnail](Thumbnails/Dynamic-Programming-for-Interviews-thumbnail.jpg)
+<img src="Thumbnails/Dynamic-Programming-for-Interviews-thumbnail.jpg" width="200px">
 
 ## Guide-to-Competitive-Programming-Learning-and-improving-Algorithms-through-Contests
-![Thumbnail](Thumbnails/Guide-to-Competitive-Programming-Learning-and-improving-Algorithms-through-Contests-thumbnail.jpg)
+<img src="Thumbnails/Guide-to-Competitive-Programming-Learning-and-improving-Algorithms-through-Contests-thumbnail.jpg" width="200px">
 
 ## Introduction-to-algorithms-third-edition
-![Thumbnail](Thumbnails/Introduction-to-algorithms-third-edition-thumbnail.jpg)
+<img src="Thumbnails/Introduction-to-algorithms-third-edition-thumbnail.jpg" width="200px">
 
 ## Standard_Algorithms_and_Data_Structures
-![Thumbnail](Thumbnails/Standard_Algorithms_and_Data_Structures-thumbnail.jpg)
+<img src="Thumbnails/Standard_Algorithms_and_Data_Structures-thumbnail.jpg" width="200px">
 
 ## competitive-programmers-handbook
-![Thumbnail](Thumbnails/competitive-programmers-handbook-thumbnail.jpg)
+<img src="Thumbnails/competitive-programmers-handbook-thumbnail.jpg" width="200px">
 
 ## icpc_guide
-![Thumbnail](Thumbnails/icpc_guide-thumbnail.jpg)
+<img src="Thumbnails/icpc_guide-thumbnail.jpg" width="200px">
 
