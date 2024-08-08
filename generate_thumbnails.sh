@@ -17,6 +17,9 @@ echo "" >> $LIST_FILE
 for pdf_file in "$BOOKS_DIR"/*.pdf; do
     # Extract the base name of the PDF (e.g., "book1.pdf" -> "book1")
     base_name=$(basename "$pdf_file" .pdf)
+
+    # Replace spaces in the base name with underscores
+    base_name=${base_name// /_}
     
     # Generate a thumbnail (first page of the PDF)
     pdftoppm -f 1 -singlefile -jpeg "$pdf_file" "$THUMBNAILS_DIR/$base_name"
