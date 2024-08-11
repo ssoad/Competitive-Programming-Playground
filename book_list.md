@@ -1,9 +1,5 @@
 # List of Books
-<<<<<<< HEAD
-Generated on Sun Aug 11 07:19:44 UTC 2024
-=======
-Generated on Sun Aug 11 09:36:01 UTC 2024
->>>>>>> 30b1b73a8b7f98c8535a56ba2e5a0da449a9973e
+Generated on Sun Aug 11 09:36:43 UTC 2024
 
 ## Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions
 <img src="Thumbnails/Cracking-the-Coding-Interview-6th-Edition-189-Programming-Questions-and-Solutions-thumbnail.jpg" width="200px">
