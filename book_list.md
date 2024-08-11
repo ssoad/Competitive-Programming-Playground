@@ -1,5 +1,5 @@
 # List of Books
-Generated on Sun Aug 11 11:08:47 UTC 2024
+Generated on Sun Aug 11 11:11:59 UTC 2024
 
 ## Competitive_Programming_in_Python-128_Algorithms_to_Develop_Your_Coding_Skills
 <img src=".thumbnails/Competitive_Programming_in_Python-128_Algorithms_to_Develop_Your_Coding_Skills-thumbnail.jpg" width="200px">
