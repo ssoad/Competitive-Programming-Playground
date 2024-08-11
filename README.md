@@ -23,11 +23,11 @@ chmod +x ./config.sh
 
 ## Books I've Read on Competitive Programming 📚
 <!-- # Awesome Competitive Programming Books  -->
-A curated list of the best books available for mastering Competitive Programming. These books cover various aspects of algorithms, data structures, and problem-solving techniques, essential for excelling in competitive programming contests and coding interviews. Whether you are a beginner or an experienced coder, these books will help you enhance your skills and tackle challenging problems effectively. The list includes classic textbooks, practical guides, and problem collections, recommended by top programmers and educators in the field. Dive into these books to sharpen your problem-solving skills and become a proficient competitive programmer. List of books I've read on Competitive Programming are given below:
+A curated list of the best books available for mastering Competitive Programming. These books cover various aspects of algorithms, data structures, and problem-solving techniques, essential for excelling in competitive programming contests and coding interviews. Whether you are a beginner or an experienced coder, these books will help you enhance your skills and tackle challenging problems effectively. The list includes classic textbooks, practical guides, and problem collections, recommended by top programmers and educators in the field. Dive into these books to sharpen your problem-solving skills and become a proficient competitive programmer. List of books I've read on Competitive Programming are given [here](./book_list.md).
 <!-- 
 ## 📘 Books List -->
 
-### [Competitive Programming 3: The New Lower Bound of Programming Contests](https://cpbook.net/)
+<!-- ### [Competitive Programming 3: The New Lower Bound of Programming Contests](https://cpbook.net/)
 
 *by Felix Halim and Steven Halim*  
 **Pages:** 423  
@@ -109,7 +109,7 @@ A guide to succeeding in programming interviews, focusing on problem-solving and
 
 *by Christoph Dürr and Jill-Jênn Vie*  
 **Pages:** 250  
-A book that offers a collection of algorithms and problems in Python, helping you enhance your coding skills.
+A book that offers a collection of algorithms and problems in Python, helping you enhance your coding skills. -->
 
 For more information, visit [here](https://codeforces.com/blog/entry/78520).
 
