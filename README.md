@@ -4,11 +4,13 @@ This repository contains solutions to various problems I've solved on different 
 
 ## Total Problems Solved
 
-- [**CodeChef**](./CodeChef):       14 ✅
-- [**Codeforces**](./Codeforces):      177 ✅
-- [**Hacker-Rank**](./Hacker-Rank):       27 ✅
+- [**CodeChef**](./CodeChef): 14 ✅
+- [**Codeforces**](./Codeforces): 177 ✅
+- [**Hacker-Rank**](./Hacker-Rank): 27 ✅
 
-Last Updated: 11-08-2024 13:35:52
+
+
+Last Updated: 11-08-2024 09:35:50
 
 ## Configuration
 
