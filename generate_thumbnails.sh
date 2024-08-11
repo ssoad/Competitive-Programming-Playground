@@ -2,7 +2,7 @@
 
 # Define the directory where your books are stored
 BOOKS_DIR="Books"
-THUMBNAILS_DIR=".github/.thumbnails"
+THUMBNAILS_DIR=".thumbnails"
 LIST_FILE="book_list.md"
 
 # Create thumbnails directory if it doesn't exist
