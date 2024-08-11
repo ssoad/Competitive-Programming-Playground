@@ -2,7 +2,7 @@
 
 # Define the directory where your books are stored
 BOOKS_DIR="Books"
-THUMBNAILS_DIR="Thumbnails"
+THUMBNAILS_DIR=".github/.thumbnails"
 LIST_FILE="book_list.md"
 
 # Create thumbnails directory if it doesn't exist
@@ -33,7 +33,7 @@ for pdf_file in "$BOOKS_DIR"/*.pdf; do
     # Add an entry to the markdown file
     echo "## $base_name" >> $LIST_FILE
     # Limit the width of the thumbnail to 200 pixels
-    echo "<img src=\"Thumbnails/$base_name-thumbnail.jpg\" width=\"200px\">" >> $LIST_FILE
+    echo "<img src=\"$THUMBNAILS_DIR/$base_name-thumbnail.jpg\" width=\"200px\">" >> $LIST_FILE
     # echo "![Thumbnail](Thumbnails/$base_name.jpg)" >> $LIST_FILE
     echo "" >> $LIST_FILE
 done
