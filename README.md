@@ -10,7 +10,7 @@ This repository contains solutions to various problems I've solved on different 
 
 
 
-Last Updated: 11-08-2024 11:11:26
+Last Updated: 11-08-2024 11:13:56
 
 ## Configuration
 
