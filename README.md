@@ -8,19 +8,7 @@ This repository contains solutions to various problems I've solved on different 
 - [**Codeforces**](./Codeforces): 177 ✅
 - [**Hacker-Rank**](./Hacker-Rank): 27 ✅
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Last Updated: 11-08-2024 13:35:52
-=======
-
-
-Last Updated: 11-08-2024 07:19:33
->>>>>>> 4e2df8ed5bd91ad9015f6ce1005d0b0f4c87fd9d
-=======
-
-
-Last Updated: 11-08-2024 09:35:50
->>>>>>> 57966a34c1739286294d59d481e262136c872ab6
 
 ## Configuration
 
