@@ -5,12 +5,12 @@ This repository contains solutions to various problems I've solved on different 
 ## Total Problems Solved
 
 - [**CodeChef**](./CodeChef): 14 ✅
-- [**Codeforces**](./Codeforces): 177 ✅
+- [**Codeforces**](./Codeforces): 190 ✅
 - [**Hacker-Rank**](./Hacker-Rank): 27 ✅
 
 
 
-Last Updated: 11-08-2024 11:13:56
+Last Updated: 22-04-2026 11:38:58
 
 ## Configuration
 
