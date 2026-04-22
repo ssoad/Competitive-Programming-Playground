@@ -7,10 +7,10 @@ void solve() {
     string s1, s2;
     cin >> s1 >> s2;
 
-    int dp_prev2 = 0; // Represents dp[i-2]
-    int dp_prev1 = 0; // Represents dp[i-1]
+    int dp_prev2 = 0; // dp[i-2]
+    int dp_prev1 = 0; // dp[i-1]
     
-    for (int i = 1; i <= n; ++i) {
+    for (int i = 1; i <= n; i++) {
         // Cost of placing 1 vertical domino
         int cost_v = (s1[i - 1] != s2[i - 1]) ? 1 : 0;
         int current = dp_prev1 + cost_v;
@@ -22,7 +22,6 @@ void solve() {
             current = min(current, dp_prev2 + cost_h);
         }
 
-        // Shift DP states
         dp_prev2 = dp_prev1;
         dp_prev1 = current;
     }

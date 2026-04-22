@@ -16,9 +16,29 @@ int main() {
     vector<bool> covered(n, false);
     vector<pair<long long, long long>> circles;
     
-    int covered_count = 0;
+    auto count_coverage = [&](long long cx, long long cy) {
+        int cnt = 0;
+        for (int i = 0; i < n; i++) {
+            if (!covered[i]) {
+                long long dx = points[i].first - cx;
+                long long dy = points[i].second - cy;
+                if (dx * dx + dy * dy <= (long long)r * r) {
+                    cnt++;
+                }
+            }
+        }
+        return cnt;
+    };
     
     while (true) {
+        // Check if we have enough coverage  
+        int covered_count = 0;
+        for (int i = 0; i < n; i++) {
+            if (covered[i]) covered_count++;
+        }
+        
+        if (covered_count * 100 >= 89 * n) break;
+        
         // Find first uncovered point
         int uncovered_idx = -1;
         for (int i = 0; i < n; i++) {
@@ -30,62 +50,43 @@ int main() {
         
         if (uncovered_idx == -1) break;
         
-        // Check if we have enough coverage
-        if (covered_count * 100 >= 89 * n) break;
-        
         long long px = points[uncovered_idx].first;
         long long py = points[uncovered_idx].second;
         
         long long best_cx = px;
         long long best_cy = py;
-        int best_count = 0;
+        int best_coverage = count_coverage(px, py);
         
-        // Sample candidate centers with finer granularity
-        int step = max(1, r / 30);
-        for (long long cx = px - r; cx <= px + r; cx += step) {
-            for (long long cy = py - r; cy <= py + r; cy += step) {
-                // Check if this center covers the uncovered point
-                if ((px - cx) * (px - cx) + (py - cy) * (py - cy) > (long long)r * r) {
-                    continue;
-                }
+        // Grid-based search: fixed step size for efficiency
+        int step_size = max(1, r / 25);
+        
+        for (long long dx = -r; dx <= r; dx += step_size) {
+            for (long long dy = -r; dy <= r; dy += step_size) {
+                long long cx = px + dx;
+                long long cy = py + dy;
                 
-                // Count how many uncovered points this covers
-                int count = 0;
-                for (int i = 0; i < n; i++) {
-                    if (!covered[i]) {
-                        long long d_sq = (points[i].first - cx) * (points[i].first - cx) +
-                                        (points[i].second - cy) * (points[i].second - cy);
-                        if (d_sq <= (long long)r * r) {
-                            count++;
-                        }
-                    }
-                }
+                // Verify this position can cover the uncovered point
+                if (dx * dx + dy * dy > (long long)r * r) continue;
                 
-                if (count > best_count) {
-                    best_count = count;
+                int cov = count_coverage(cx, cy);
+                if (cov > best_coverage) {
+                    best_coverage = cov;
                     best_cx = cx;
                     best_cy = cy;
                 }
             }
         }
         
-        // If no good position found in grid, try the uncovered point itself
-        if (best_count == 0) {
-            best_cx = px;
-            best_cy = py;
-        }
-        
         // Place circle at best position
         circles.push_back({best_cx, best_cy});
         
-        // Mark covered points
+        // Mark newly covered points
         for (int i = 0; i < n; i++) {
             if (!covered[i]) {
-                long long d_sq = (points[i].first - best_cx) * (points[i].first - best_cx) +
-                                (points[i].second - best_cy) * (points[i].second - best_cy);
-                if (d_sq <= (long long)r * r) {
+                long long dx = points[i].first - best_cx;
+                long long dy = points[i].second - best_cy;
+                if (dx * dx + dy * dy <= (long long)r * r) {
                     covered[i] = true;
-                    covered_count++;
                 }
             }
         }
